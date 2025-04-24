@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotel & Resort - Images</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Luxury Hotel</h1>
+                <span class="tagline">Experience Excellence</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="rooms.html">Rooms</a>
+                <a href="#dining">Dining</a>
+                <a href="#special-offers">Special Offers</a>
+                <a href="#amenities">Amenities</a>
+                <a href="images.html" class="active">Gallery</a>
+                <a href="#contact">Contact</a>
+                <a href="#" class="book-now-btn">Book Now</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="gallery-header">
+            <h2>Our Gallery</h2>
+            <p>Explore the beauty and elegance of our luxury hotel through these captivating images</p>
+        </div>
+        <div class="gallery-categories">
+            <button class="gallery-category active" data-category="all">All</button>
+            <button class="gallery-category" data-category="rooms">Rooms</button>
+            <button class="gallery-category" data-category="dining">Dining</button>
+            <button class="gallery-category" data-category="amenities">Amenities</button>
+            <button class="gallery-category" data-category="exterior">Exterior</button>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-category="exterior">
+                <img src="images/hotel-facade.jpg" alt="Hotel Facade" data-title="Luxury Hotel Facade" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Luxury Facade</h3>
+                        <p>Our iconic hotel entrance</p>
+                    </div>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="exterior">
+                <img src="images/hotel-exterior.jpg" alt="Hotel Exterior" data-title="Stunning Hotel Exterior" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Grand Exterior</h3>
+                        <p>Architectural excellence</p>
+                    </div>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="rooms">
+                <img src="images/deluxe-room.jpg" alt="Deluxe Room" data-title="Elegant Deluxe Room" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Deluxe Room</h3>
+                        <p>Spacious comfort and style</p>
+                    </div>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="dining">
+                <img src="images/restaurant.jpg" alt="Restaurant" data-title="Fine Dining Experience" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>The Grand Restaurant</h3>
+                        <p>Exquisite dining experience</p>
+                    </div>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="rooms">
+                <img src="images/luxury-suite.jpg" alt="Luxury Suite" data-title="Luxury Suite" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Luxury Suite</h3>
+                        <p>Ultimate comfort and elegance</p>
+                    </div>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="amenities">
+                <img src="images/spa.jpg" alt="Spa" data-title="Luxury Spa" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Wellness Spa</h3>
+                        <p>Relaxation and rejuvenation</p>
+                    </div>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="amenities">
+                <img src="images/pool.jpg" alt="Pool" data-title="Infinity Pool" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Infinity Pool</h3>
+                        <p>Swim with a stunning view</p>
+                    </div>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="dining">
+                <img src="images/rooftop-bar.jpg" alt="Rooftop Bar" data-title="Sky Lounge" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Sky Lounge & Bar</h3>
+                        <p>Cocktails with a view</p>
+                    </div>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="exterior">
+                <img src="images/lobby.jpg" alt="Hotel Lobby" data-title="Grand Lobby" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h3>Grand Lobby</h3>
+                        <p>Where luxury begins</p>
+                    </div>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-more">
+            <a href="#" class="gallery-btn">View All Images <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close"><i class="fas fa-times"></i></button>
+            <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+            <img src="" alt="">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
